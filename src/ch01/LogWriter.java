@@ -35,8 +35,8 @@ public class LogWriter {
 	public void writeLog(String log) {
 		try {
 			writer.write(log);
-			writer.newLine(); // "\n"
-			writer.flush();
+			writer.newLine(); // "\n" 개행처리
+			writer.flush(); // 데이터 출력
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

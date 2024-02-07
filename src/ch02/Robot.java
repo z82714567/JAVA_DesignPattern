@@ -25,22 +25,18 @@ public class Robot {
 				public Builder() {
 					this.robot = new Robot();
 				}
-				
 				public Builder head(String head) {
 					robot.head = head;
 					return this; 
 				}
-				
 				public Builder arms(String arms) {
 					robot.arms = arms;
 					return this; 
 				}
-				
 				public Builder legs(String legs) {
 					robot.legs = legs;
 					return this; 
 				}
-				
 				public Builder torso(String torso) {
 					robot.torso = torso;
 					return this; 

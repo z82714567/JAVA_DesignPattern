@@ -6,7 +6,7 @@ public class RobotClient {
 
 	public static void main(String[] args) {
 		
-		// 몸통 추가 torso
+		
 		Robot robot = new Robot.Builder()
 				.head("메탈")
 				.arms("티타늄")

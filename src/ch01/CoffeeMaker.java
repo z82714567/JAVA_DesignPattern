@@ -13,7 +13,7 @@ public class CoffeeMaker {
 	// 단, 정적 메서드를 만들어 줘야 함.(? 클래스. 으로 접근 = 정적 메서드)
 
 	public static CoffeeMaker getInstance() {
-		if (instance == null) {
+		if (instance == null) { // 싱글톤은 애플리케이션이 시작될 때 클래스가 최초 한번만 메모리에 할당, 없으면 new해준다. 
 			instance = new CoffeeMaker();
 		}
 		return instance;
